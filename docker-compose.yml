@@ -1,0 +1,7 @@
+version: "2"
+services:
+  reader:
+    build: .
+    devices:
+      - /dev/ttyUSB0
+    tty: true
